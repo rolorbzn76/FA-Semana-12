@@ -146,7 +146,7 @@ namespace Caso_01_Globales
             }
             return -1;
         }
-        // Función posPrimerDeposito que retorne la posición del SEGUNDO depósito encontrado en el rango de 2000 a 2500.
+        // Función posSegundoDeposito que retorne la posición del SEGUNDO depósito encontrado en el rango de 2000 a 2500.
         // En caso no exista, deberá retornar -1.
         static int posSegundoDeposito()
         {
