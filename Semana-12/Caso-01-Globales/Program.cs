@@ -15,9 +15,11 @@ namespace Caso_01_Globales
         static double promedio;
         static void Main(string[] args)
         {
+            Console.WriteLine("Ingrese la posición: ");
+            int pos = int.Parse(Console.ReadLine());
             // Llamamos a las funciones
             longitud = tamanio();
-            depositoAlmanceado = obtenerDeposito(2);
+            depositoAlmanceado = obtenerDeposito(pos);
             promedio = promedioDeposito();
             mayor = depositoMayor();
             menor = depositoMenor();
